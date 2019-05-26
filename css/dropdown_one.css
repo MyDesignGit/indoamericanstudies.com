@@ -1,0 +1,52 @@
+#pad {height:100px;}
+/* ================================================================ 
+
+=================================================================== */
+#menu {padding:0; margin:0; list-style:none; height:30px; z-index:500; font-family:arial, verdana, sans-serif; background:#226AA5;}
+#menu li {float:left; margin-right:1px;}
+#menu li a {display:block; float:left; height:30px; line-height:30px; background:#226AA5; color:#FFFFFF; text-decoration:none; font-size:12px; font-weight:bold; padding:0 22px 0 10px;}
+
+.lineheight{line-height:20px;}
+#menu table {border-collapse:collapse; width:0; height:0; position:absolute; top:0; left:0;}
+
+/* Default link styling */
+
+/* Style the list OR link hover. Depends on which browser is used */
+
+#menu li a:hover {z-index:200; position:relative;color:#FFFFFF; background-color:#FC0301;}
+#menu li:hover {position:relative; z-index:200;}
+
+#menu li:hover > a {color:#FFFFFF; background:#FC0301;}
+#menu li:hover > a.sub {color:#FFFFFF; background-color:#FC0301;}
+
+#menu li.current a {color:#fff; background:#840;}
+
+#menu li a.sub {background: #226AA5 url(img/down-arrow.gif) no-repeat right center;}
+#menu li.current a.sub {color:#fff; background:#FC0301 url(img/down-arrow.gif) no-repeat right center;;}
+
+#menu :hover ul {left:0; top:30px; width:80px; background:#444;}
+
+/* keep the 'next' level invisible by placing it off screen. */
+#menu ul, 
+#menu :hover ul ul {position:absolute; left:-9999px; top:-9999px; width:0; height:0; margin:0; padding:0; list-style:none;}
+
+#menu :hover ul :hover ul
+{left:120px; top:-1px; background:#222; white-space:nowrap; width:100px; z-index:200; height:auto;}
+
+#menu :hover ul li {margin:0; border-top:1px solid #ffffff;}
+#menu :hover ul li a {width:150px; padding:0; text-indent:10px; color:#FFFFFF; height:30px; line-height:30px;}
+#menu :hover ul li a.fly {background:# url(http://indoamericanstudies.com/css/right-arrow.gif) no-repeat right center;}
+
+#menu :hover ul :hover {background-color:#FC0301; color:#FFFFFF;}
+#menu :hover ul :hover a.fly {background-color:#FC0301; color:#fff;}
+
+#menu :hover ul li.currentsub a {background:#840; color:#fff;}
+#menu :hover ul li.currentsub a.fly {background:#840 url(http://indoamericanstudies.com/css/right-arrow.gif) no-repeat right center; color:#fff;}
+
+#menu :hover ul :hover ul li a {width:100px; padding:0; text-indent:10px; background:#3e3e3e; color:#ccc;}
+#menu :hover ul :hover ul :hover {background-color:#d70; color:#fff;}
+
+#menu :hover ul :hover ul li.currentfly a,
+#menu :hover ul :hover ul li.currentfly a:hover {background:#840; color:#fff;}
+.a5{border:1px solid #9a9999;background-image:url(http://indoamericanstudies.com/i/3.jpg); background-repeat:repeat-x;font-family:tahoma;font-size:11px;color:#000;}
+.a80{height:17px;background-color: #226AA5;border: 0px;font-family:tahoma;font-size:11px;color:#ffffff;text-decoration:none;cursor:pointer;font-weight:bold;width:59px;}
