@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <pagescount>
-	<html_total>84</html_total>
-	<html_done>84</html_done>
-	<img>20</img>
+	<html_total>85</html_total>
+	<html_done>85</html_done>
+	<img>84</img>
 	<js>10</js>
-	<css>2</css>
-	<pdf/>
+	<css>4</css>
+	<pdf>2</pdf>
 	<doc/>
 	<xls/>
 	<ppt/>
@@ -17,11 +17,11 @@
 	<json/>
 	<txt/>
 	<fonts/>
-	<scraping_reload>1</scraping_reload>
+	<scraping_reload>2</scraping_reload>
 	<is_pretty_url>false</is_pretty_url>
 	<is_ebn>false</is_ebn>
-	<theme_name>57344</theme_name>
-	<server_url_front_page>https://www.waybackmachinedownloader.com/scraping/files/demo/indoamericanstudies.com_narayana.artist_outlook.com_0im7e0akmjj/</server_url_front_page>
+	<theme_name>5nuvfakmtzakkoqrupsnt657988</theme_name>
+	<server_url_front_page>https://www.waybackmachinedownloader.com/scraping/files/live/indoamericanstudies.com_narayana.artist_outlook.com_tgu02tc70db/</server_url_front_page>
 	<no_www_url>indoamericanstudies.com</no_www_url>
 	<hosted_domain/>
 	<original_archive_url>http://web.archive.org/web/20181019073014/http://www.indoamericanstudies.com/</original_archive_url>
@@ -29,5 +29,5 @@
 	<front_page_code_date/>
 	<total_urls_from_api/>
 	<search_url_added>true</search_url_added>
-	<total_size>4556</total_size>
+	<total_size>22412</total_size>
 </pagescount>
